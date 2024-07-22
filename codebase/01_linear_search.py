@@ -6,11 +6,24 @@
 
 # Defining the function for linear search:
 def linear_search(search_element: int,search_lst:list)->str:
+    """
+        Searches the value stored in the variable search_element,
+        in the list provided as search_lst.
+        1. search_element - int - Element to be searched.
+        2. search_lst - list - List with the elements to be
+        searched for.
+    """
+    # Going through the value stored at each index in the search_lst.
     for lst_idx in range(len(search_lst)):
-        if search_element == search_lst[lst_idx]:
+        # Checking if the element at the current index is the value to
+        # be searched for.
+        if search_element == search_lst[lst_idx]: 
+            # If element found at current index.
             return f"Element {search_element} found at list index {lst_idx}"
         else:
+            # If element not found at the current index.
             continue
+    # If the element is not in search_lst.
     return "Element not in the list"
 
 # Defining the list to be searched
