@@ -5,3 +5,4 @@ Welcome to the Computing for Data Science Wiki, here we have detailed sections t
 Table of contents
 
 1. [Introduction to the course](./01_introduction_to_the_course.md)
+2. [Linear search](./02_linear_search.md)
