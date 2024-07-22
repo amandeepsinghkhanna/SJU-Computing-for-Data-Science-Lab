@@ -6,8 +6,8 @@
 
 # Defining the function for linear search:
 def linear_search(search_element: int,search_lst:list)->str:
-    for lst_idx in range(len(search_element)):
-        if search_element == search_element[lst_idx]:
+    for lst_idx in range(len(search_lst)):
+        if search_element == search_lst[lst_idx]:
             return f"Element {search_element} found at list index {lst_idx}"
         else:
             continue
