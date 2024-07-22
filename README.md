@@ -1,6 +1,6 @@
 # Computing for Data Science Lab
 
-Welcome to the repository for the lab sessions of Computing for Data Science at St. Joseph's University, Bangalore, India. The couse if intended for the students of the first year MSc. Big Data Analytics. The practical aspects of the course are structured to help the students master the basics of algorithms and datastructures in the Python programming language.
+Welcome to the repository for the lab sessions of Computing for Data Science at St. Joseph's University, Bangalore, India. The couse is intended for the students of the first year MSc. Big Data Analytics. The practical aspects of the course are structured to help the students master the basics of algorithms and datastructures in the Python programming language.
 
 The session by session markdown can be found [here](./course_wiki/README.md)
 
@@ -22,3 +22,5 @@ SJU-Computing-FOR-DATA-SCIENCE-LAB: (Root Directory)
 
 - Syed Hammad
 - Amandeep Singh Khanna
+
+For those interested in contributing, the guidelines for the contribution can be found [here](./course_wiki/contribution_guidelines.md)
