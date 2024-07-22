@@ -4,6 +4,7 @@
     Script Author: Amandeep Singh Khanna
 """
 
+
 # Defining the function for linear search:
 def linear_search(search_element: int,search_lst:list)->str:
     """
@@ -26,15 +27,28 @@ def linear_search(search_element: int,search_lst:list)->str:
     # If the element is not in search_lst.
     return "Element not in the list"
 
-# Defining the list to be searched
-search_lst = [10, 20, 2, 1, 33, 4]
-search_element = 2 # Element to be searched for
 
-# Searching for element 2 in the above specified list
-print(
-    linear_search(
-        search_element=search_element, 
-        search_lst=search_lst
+def main()->None:
+    """
+        The main function of the program.
+    """
+    # Defining the list to be searched
+    search_lst = [10, 20, 2, 1, 33, 4]
+    search_element = 2 # Element to be searched for
+    
+    # Searching for element 2 in the above specified list
+    print(
+        linear_search(
+            search_element=search_element, 
+            search_lst=search_lst
+        )
     )
-)
+
+
+if __name__ == "__main__":
+    main()
+
+
+
+
 
