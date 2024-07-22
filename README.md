@@ -17,3 +17,8 @@ SJU-Computing-FOR-DATA-SCIENCE-LAB: (Root Directory)
 - The `course_wiki` folder contains all the documentation intended to help the students.
 - The `utils` folder contains scripts and artifacts that assist in teaching/setting up the development environment.
 - The `README.md` contains the introduction to the repository that you're currently reading.
+
+## Contributors of the repository
+
+- Syed Hammad
+- Amandeep Singh Khanna
