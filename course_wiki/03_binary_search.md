@@ -2,7 +2,7 @@ Table of contents
 
 - [Binary Search](#binary-search)
   - [1. Binary Search Algorithm](#binary-search-algorithm)
-  - [2. Binary Search Python Code](#) 
+  - [2. Binary Search Python Code](#binary-search-python-code) 
 
 # Binary Search
 
@@ -44,3 +44,7 @@ while start <= end:
         end = mid - 1
     return -1
 ```
+
+## Time and Space Complexity
+Time Complexity:	O(log n)
+Space Complexity:	O(1)
