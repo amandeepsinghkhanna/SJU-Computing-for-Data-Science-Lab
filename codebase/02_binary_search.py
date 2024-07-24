@@ -4,10 +4,7 @@
     Script Author: Syed Hammad
 """
 
-from typing import List
-
-
-def binary_search(ele: int, arr: List[int]) -> int:
+def binary_search(ele: int, arr: list) -> int:
     """
         Binary Search Algorithm
         :param ele: Element to search for
@@ -29,14 +26,14 @@ def binary_search(ele: int, arr: List[int]) -> int:
             start = mid + 1
         else:
             end = mid - 1
-        return -1
+    return - 1
 
 def main() -> None:
     """
         Main function
     """
     # Creating the input array.
-    arr: List[int] = [2, 10, 25, 30, 49, 110, 167]
+    arr: list = [2, 10, 25, 30, 49, 110, 167]
 
     # Element you are searching for
     ele: int = int(input("Enter the number you are looking for:"))
