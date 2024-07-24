@@ -4,6 +4,7 @@ Table of contents
   - [2. Software Requirements](#2-software-requirements)
   - [3. A Guide on Code Formatting](#3-a-guide-on-code-formatting)
   - [4. Recommended Reading](#4-recommended-reading)
+  - [5. Recommended Extensions for Microsoft Visual Studio Code](#5-recommended-extensions-for-microsoft-visual-studio-code)
 
 
 # Introduction to the Course
@@ -43,3 +44,11 @@ Following are the list of softwares required for going through the lab:
 |1|Automate the boring stuff with Python - Al Sweigart|
 |2|Learning Python - Mark Lutz|
 |3|Classic Computer Scince Problems in Python - David Kopec|
+
+## 5. Recommended Extensions for Microsoft Visual Studio Code
+
+|#|Extension|Extension Description|
+|-|-|-|
+|1|[JetBrains Mono. A typeface for developers​_](https://marketplace.visualstudio.com/items?itemName=NarasimaPandiyan.jetbrainsmono)|JetBrains Mono font pack - OpenSource monospaced font with programming ligatures vscode extension|
+|2|[Portable Kanban](https://marketplace.visualstudio.com/items?itemName=harehare.portable-kanban)|This is an extension to create a portable kanban.|
+|3|[Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler)|Data viewing, cleaning and preparation for tabular datasets|
