@@ -3,6 +3,7 @@ Table of contents
 - [Binary Search](#binary-search)
   - [1. Binary Search Algorithm](#binary-search-algorithm)
   - [2. Binary Search Python Code](#binary-search-python-code) 
+  - [3. Binary Search Time and Space Complexity](#time-and-space-complexity)
 
 # Binary Search
 
