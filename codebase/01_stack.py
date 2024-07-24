@@ -25,6 +25,9 @@ class Stack(object):
         self.stored_data.pop()
 
     def display_stack(self)->None:
+        """
+            Displays the elements present in the stack by printing each element.
+        """
         for value in self.stack_data:
             print(value)
 
