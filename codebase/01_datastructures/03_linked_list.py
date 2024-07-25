@@ -5,96 +5,117 @@
 """
 
 
-# %%
 class Node:
-    """
-    Defining a custom object for capturing data and the next node.
-    """
-
-    def __init__(self, data) -> None:
+    def __init__(self, data, next_node=None):
         self.data = data
-        self.next_node = None
+        self.next_node = next_node
 
+    def __repr__(self):
+        return f"{self.data}->{self.next_node}"
+
+    def __str__(self):
+        return f"{self.data}->{self.next_node}"
 
 class LinkedList:
-    """
-    Implementing a Linked List in Python.
-    """
-
     def __init__(self):
         self.head = None
-        self.size = 0
+        self.linked_list_size = 0
 
-    def insert_element_at_start(self, data) -> None:
-        """
-        Adds an element at the begining of the linked list.
-        """
-        if self.head == None:
-            self.head = Node(data)
-            self.size += 1
+    def insert(self, data, position="end"):
+        new_node = Node(data)  # Create the new node outside the loop
+
+        if position == "end":  # Insert at the end
+            if self.head is None:
+                self.head = new_node
+            else:
+                current_node = self.head
+                while current_node.next_node is not None:
+                    current_node = current_node.next_node
+                current_node.next_node = new_node
+            self.linked_list_size += 1
+
+        elif position == "start":  # Insert at the beginning
+            new_node.next_node = self.head
+            self.head = new_node
+            self.linked_list_size += 1
+
+        else:  # Insert after a specific value (assuming unique values)
+            found = False
+            current_node = self.head
+            while current_node is not None and not found:
+                if current_node.data == position:
+                    found = True
+                else:
+                    current_node = current_node.next_node
+
+            if found:  # Insert after the found node
+                new_node.next_node = current_node.next_node
+                current_node.next_node = new_node
+                self.linked_list_size += 1
+            else:  # Value not found, do nothing (or raise an error)
+                print(f"Value {position} not found in the list")
+
+    def delete(self, position="end"):
+        if self.head is None:
+            print("The linked list is empty")
+            return
+
+        if position == "end":
+            if self.head.next_node is None:
+                self.head = None
+            else:
+                current_node = self.head
+                while current_node.next_node.next_node is not None:
+                    current_node = current_node.next_node
+                current_node.next_node = None
+            self.linked_list_size -= 1
+
+        elif position == "start":
+            self.head = self.head.next_node
+            self.linked_list_size -= 1
+
         else:
-            first_node = self.head.next_node
-            self.head = Node(data)
-            self.head.next_node = first_node
-            self.size += 1
-
-    def insert_element_at_end(self, data) -> None:
-        """ """
-        if self.head == None:  # If the linked list is empty.
-            self.head = Node(data)
-            self.size += 1
-        else:  # If the linked list has at least one value.
+            found = False
             current_node = self.head
-            while current_node.next_node != None:
-                current_node = current_node.next_node
-            current_node.next_node = Node(data)
-            self.size += 1
+            prev_node = None
+            while current_node is not None and not found:
+                if current_node.data == position:
+                    found = True
+                else:
+                    prev_node = current_node
+                    current_node = current_node.next_node
 
-    def insert_element_at_position(self, data: object, position: int) -> None:
-        """ """
-        pass
-
-    def print_linkedlist(self):
-        """ """
-        if self.head == None:  # If the linked list is empty.
-            print("The linked list is empty!")
-        else:  # If the linked list has at least one value.
-            current_node = self.head
-            linkedlist_str = ""  # To generate the linked list visualization.
-            while current_node != None:
-                linkedlist_str += f"{current_node.data}->"
-                current_node = current_node.next_node
-            print(f"{linkedlist_str}NULL")
+            if found:
+                if prev_node is None:
+                    self.head = current_node.next_node
+                else:
+                    prev_node.next_node = current_node.next_node
+                self.linked_list_size -= 1
+            else:
+                print(f"Value {position} not found in the list")
 
 
 def main():
-    """
-    The main program.
-    """
-    linked_list = LinkedList()  # Initializing the linked list.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.insert_element_at_end(10)  # Inserting element at the end.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.print_linkedlist()  # Printing the linked list.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.insert_element_at_end(1)  # Inserting element at the end.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.print_linkedlist()  # Printing the linked list.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.insert_element_at_end(11)  # Inserting element at the end.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.print_linkedlist()  # Printing the linked list.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.insert_element_at_end(13)  # Inserting element at the end.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.print_linkedlist()  # Printing the linked list.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.insert_element_at_start(0)  # Inserting element at the start.
-    print(f"The size of the linked list {linked_list.size}")
-    linked_list.print_linkedlist()  # Printing the linked list.
+    linked_list = LinkedList()
+    linked_list.insert(2)
+    linked_list.insert(3)
+    print(linked_list.head)
+    linked_list.insert(data=1, position="start")
+    linked_list.insert(data=0, position="start")
+    linked_list.insert(data=6, position="end")
+    print(linked_list.head)
+    linked_list.insert(data=4, position=3)
+    linked_list.insert(data=5, position=4)
+    linked_list.insert(data=5, position=10)
+    linked_list.insert(data=50, position="end")
+    print(linked_list.head)
+    linked_list.delete()
+    print(linked_list.head)
+    linked_list.delete(position="start")
+    print(linked_list.head)
+    linked_list.delete(position=5)
+    print(linked_list.head)
 
 
 if __name__ == "__main__":
     main()
-
-# %%
