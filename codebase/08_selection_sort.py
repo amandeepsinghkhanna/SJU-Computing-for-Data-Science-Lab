@@ -24,14 +24,13 @@ def get_minimum_value_and_index(input_lst: list) -> int:
 
 
 # Defining the function for selection sort
-def selection_sort(sort_lst: list) -> list:
+def selection_sort(sort_lst: list) -> None:
     """
     Implements the selection sort for sorting the list sort_lst in ascending order.
+    This algorithm makes inplace changes to the list.
     1. sort_lst - list - A list of integers to be sorted in ascending order.
-    Returns:
-    1. sort_lst - list - List of integers sorted in ascending order.
     """
-    for lst_idx in sort_lst:
+    for lst_idx in sort_list:
         minimum_value, minimum_value_idx = get_minimum_value_and_index(
             input_lst=sort_lst
         )
@@ -39,7 +38,6 @@ def selection_sort(sort_lst: list) -> list:
             # Swapping the minimum value with the value at the i-th index.
             sort_lst[minimum_value_idx] = sort_lst[lst_idx]
             sort_lst[lst_idx] = minimum_value
-    return sort_lst
 
 
 def main():
