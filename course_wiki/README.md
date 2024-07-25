@@ -5,17 +5,17 @@ Welcome to the Computing for Data Science Wiki, here we have detailed sections t
 Table of contents
 
 1. [Introduction to the course](./01_introduction_to_the_course.md) - Markdown done
-2. [Stack]() - Code done, Markdown pending
-3. [Queue]() - Code done, Markdown pending
-4. [Linked lists]() - Code pending, Markdown pending
-5. [Linear search](./02_linear_search.md) - Code done, Markdown pending
-6. [Binary search](./03_binary_search.md) - Code pending, Markdown pending
-7. [Bubble sort]() - Code pending, Markdown pending
-8. [Selection sort]() - Code pending, Markdown pending
-9. [Insertion sort]() - Code pending, Markdown pending
-10. [Quick sort]() - Code pending, Markdown pending
-11. [Merge sort]() - Code pending, Markdown pending
-12. [Newton Raphson]() - Code pending, Markdown pending
-13. [Gradient Descent]() - Code pending, Markdown pending
+2. [Stack]() - Code done, 
+3. [Queue]() - Code done, 
+4. [Linked lists]() - Code done, 
+5. [Linear search]() - Code done, 
+6. [Binary search]() - Code done, 
+7. [Bubble sort]() - Code done, 
+8. [Selection sort]() - Code done, 
+9. [Insertion sort]()
+10. [Quick sort]()
+11. [Merge sort]()
+12. [Newton Raphson]()
+13. [Gradient Descent]()
 
 To go back to the main page click [here](../README.md)
