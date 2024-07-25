@@ -1,21 +1,14 @@
 # Computing for Data Science Wiki
 
-Welcome to the Computing for Data Science Wiki, here we have detailed sections to get through the lab session as smoothly as possible.
+Welcome to the Computing for Data Science (CDS) wiki. In the wiki you'll find the documentation for the the codebase, algorithms and everything else that can help you in acing the course.
 
 Table of contents
 
-1. [Introduction to the course](./01_introduction_to_the_course.md) - Markdown done
-2. [Stack]() - Code done, 
-3. [Queue]() - Code done, 
-4. [Linked lists]() - Code done, 
-5. [Linear search]() - Code done, 
-6. [Binary search]() - Code done, 
-7. [Bubble sort]() - Code done, 
-8. [Selection sort]() - Code done, 
-9. [Insertion sort]()
-10. [Quick sort]()
-11. [Merge sort]()
-12. [Newton Raphson]()
-13. [Gradient Descent]()
+## 1. Minimum System Requirements
 
-To go back to the main page click [here](../README.md)
+|#|Component|Specification|
+|-|-|-|
+|1|CPU|Intel: i5 or higher, AMD: Ryzen 5 or higher, Any Apple Silicon|
+|2|GPU|Good to have but not required|
+|3|HDD|5 GB of free storage|
+|4|RAM|8 GB or higher|

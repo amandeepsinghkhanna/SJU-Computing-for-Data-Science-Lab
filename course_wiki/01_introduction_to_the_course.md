@@ -1,24 +1,11 @@
 Table of contents
+
 - [Introduction to the Course](#introduction-to-the-course)
   - [1. Minimum System Requirements](#1-minimum-system-requirements)
   - [2. Software Requirements](#2-software-requirements)
   - [3. A Guide on Code Formatting](#3-a-guide-on-code-formatting)
   - [4. Recommended Reading](#4-recommended-reading)
   - [5. Recommended Extensions for Microsoft Visual Studio Code](#5-recommended-extensions-for-microsoft-visual-studio-code)
-
-
-# Introduction to the Course
-
-This section contains the basic steps you need to prepare yourself for the course.
-
-## 1. Minimum System Requirements
-
-|#|Component|Specification|
-|-|-|-|
-|1|CPU|Intel: i5 or higher, AMD: Ryzen 5 or higher, Any Apple Silicon|
-|2|GPU|Good to have but not required|
-|3|HDD|5 GB of free storage|
-|4|RAM|8 GB or higher|
 
 - **Note:** These are the minimum system requirements for a student to effortlessly progress through the lab sessions.
 
@@ -52,3 +39,25 @@ Following are the list of softwares required for going through the lab:
 |1|[JetBrains Mono. A typeface for developers​_](https://marketplace.visualstudio.com/items?itemName=NarasimaPandiyan.jetbrainsmono)|JetBrains Mono font pack - OpenSource monospaced font with programming ligatures vscode extension|
 |2|[Portable Kanban](https://marketplace.visualstudio.com/items?itemName=harehare.portable-kanban)|This is an extension to create a portable kanban.|
 |3|[Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler)|Data viewing, cleaning and preparation for tabular datasets|
+
+# Computing for Data Science Wiki
+
+Welcome to the Computing for Data Science Wiki, here we have detailed sections to get through the lab session as smoothly as possible.
+
+Table of contents
+
+1. [Introduction to the course](./01_introduction_to_the_course.md) - Markdown done
+2. [Stack]()
+3. [Queue]()
+4. [Linked lists]()
+5. [Linear search]()
+6. [Binary search]()
+7. [Bubble sort]()
+8. [Selection sort]()
+9. [Insertion sort]()
+10. [Quick sort]()
+11. [Merge sort]()
+12. [Newton Raphson]()
+13. [Gradient Descent]()
+
+To go back to the main page click [here](../README.md)
