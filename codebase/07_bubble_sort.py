@@ -1,4 +1,7 @@
 """
+    Algorithm Number: 07
+    Algorithm Name: 'Selection Sort'
+    Script Author: Amandeep Singh Khanna
 """
 
 
