@@ -27,7 +27,6 @@ SJU-Computing-for-Data-Science-Lab
 |   |___02_searching_algorithms
 |   |___03_sorting_algorithms
 |   |___04_numerical_methods
-|
 ```
 
 - This is the `README.md` file that you're reading.
@@ -81,7 +80,7 @@ Following are the list of softwares required for acing your lab sessions.
 
 The concepts/algorithms covered in the course are broken into four main parts:
 
-1. [Datastructures]()
+1. [Datastructures](./codebase/01_datastructures/README.md)
 
    1.1. [Stack]()
 
@@ -93,13 +92,13 @@ The concepts/algorithms covered in the course are broken into four main parts:
   
    1.5. [Binary Tree]()
 
-2. [Searching Algorithms]()
+2. [Searching Algorithms](./codebase/02_searching_algorithms/README.md)
 
     2.1. [Linear Search]()
 
     2.2. [Binary Search]()
 
-3. [Sorting Algorithms]()
+3. [Sorting Algorithms](./codebase/03_sorting_algorithms/)
 
     3.1. [Bubble Sort]()
 
@@ -109,7 +108,7 @@ The concepts/algorithms covered in the course are broken into four main parts:
 
     3.4. [Merge Sort]()
 
-4. [Numerical Methods]()
+4. [Numerical Methods](./codebase/04_numerical_methods/README.md)
 
     4.1. [Newton Raphson]()
 
