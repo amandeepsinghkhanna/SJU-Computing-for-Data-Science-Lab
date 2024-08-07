@@ -9,10 +9,21 @@ from typing import List
 
 def binary_search(ele: int, arr: List[int]) -> int:
     """
-    Binary Search Algorithm
-    :param ele: Element to search for
-    :param arr: Array to search in
-    :return: Index of the element if found, -1 otherwise
+    Perform binary search on a sorted list to find the target value.
+        1. Check the middle item.
+        2. If it matches the target, return its index.
+        3. If the target is smaller, repeat with the left half.
+        4. If the target is larger, repeat with the right half.
+        5. Continue until the target is found or the list is exhausted.
+    Parameters:
+    ----------
+    ele: int
+        Element to search for
+    arr: List[int]
+        Array to search in
+    Returns:
+    ----------
+    int: Index of the element if found, -1 otherwise
     """
     # Setting the variables
     start: int = 0
