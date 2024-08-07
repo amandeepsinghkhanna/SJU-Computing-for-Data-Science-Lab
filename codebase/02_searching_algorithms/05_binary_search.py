@@ -4,12 +4,26 @@
     Script Author: Syed Hammad
 """
 
-def binary_search(ele: int, arr: list) -> int:
+from typing import List
+
+
+def binary_search(ele: int, arr: List[int]) -> int:
     """
-    Binary Search Algorithm
-    :param ele: Element to search for
-    :param arr: Array to search in
-    :return: Index of the element if found, -1 otherwise
+    Perform binary search on a sorted list to find the target value.
+        1. Check the middle item.
+        2. If it matches the target, return its index.
+        3. If the target is smaller, repeat with the left half.
+        4. If the target is larger, repeat with the right half.
+        5. Continue until the target is found or the list is exhausted.
+    Parameters:
+    ----------
+    ele: int
+        Element to search for
+    arr: List[int]
+        Array to search in
+    Returns:
+    ----------
+    int: Index of the element if found, -1 otherwise
     """
     # Setting the variables
     start: int = 0
@@ -26,7 +40,7 @@ def binary_search(ele: int, arr: list) -> int:
             start = mid + 1
         else:
             end = mid - 1
-    return - 1
+        return -1
 
 
 def main() -> None:
@@ -34,7 +48,7 @@ def main() -> None:
     Main function
     """
     # Creating the input array.
-    arr: list = [2, 10, 25, 30, 49, 110, 167]
+    arr: List[int] = [2, 10, 25, 30, 49, 110, 167]
 
     # Element you are searching for
     ele: int = int(input("Enter the number you are looking for:"))
