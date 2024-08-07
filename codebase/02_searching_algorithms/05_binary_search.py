@@ -1,15 +1,15 @@
 """
-    Algorithm Number: 02
+    Algorithm Number: 05
     Algorithm Name: Binary Search
     Script Author: Syed Hammad
 """
 
 def binary_search(ele: int, arr: list) -> int:
     """
-        Binary Search Algorithm
-        :param ele: Element to search for
-        :param arr: Array to search in
-        :return: Index of the element if found, -1 otherwise
+    Binary Search Algorithm
+    :param ele: Element to search for
+    :param arr: Array to search in
+    :return: Index of the element if found, -1 otherwise
     """
     # Setting the variables
     start: int = 0
@@ -28,9 +28,10 @@ def binary_search(ele: int, arr: list) -> int:
             end = mid - 1
     return - 1
 
+
 def main() -> None:
     """
-        Main function
+    Main function
     """
     # Creating the input array.
     arr: list = [2, 10, 25, 30, 49, 110, 167]
@@ -41,8 +42,9 @@ def main() -> None:
     pos: int = binary_search(ele, arr)
     if pos == -1:
         print(f"{ele} not found")
-    else: 
+    else:
         print(f"{ele} found at {pos} position")
+
 
 if __name__ == "__main__":
     main()
