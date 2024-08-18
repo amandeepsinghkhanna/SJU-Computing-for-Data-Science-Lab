@@ -26,6 +26,20 @@ class Stack(object):
         """
         self.stack_data.pop()
 
+    def size(self):
+        """
+        Returns the number of elements present in the stack.
+        """
+        return len(self.stack_data)
+
+    def is_empty(self):
+        """
+        Checks for the items inside the stack and returns,
+        TRUE -> if stack is empty
+        FALSE -> if stack is non_empty
+        """
+        return len(self.stack_data) == 0
+    
     def display_stack(self) -> None:
         """
         Displays the elements present in the stack by printing each element.
@@ -47,6 +61,9 @@ def main():
     stack_obj.push(56)
     stack_obj.display_stack()  # Seeing the contents of the stack.
     stack_obj.pop()  # Poping a value from the stack.
+    print("After popping the element")
+    print("Size of the stack:",stack_obj.size()) # Gives the size of the stack.
+    print("Is the stack empty?:",stack_obj.is_empty()) # Checking for contents in the stack. 
     return None
 
 
