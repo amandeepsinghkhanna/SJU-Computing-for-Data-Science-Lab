@@ -4,4 +4,40 @@ Data structures help organize and store data efficiently in computer memory. The
 
 ## 1.1. Stack
 
+### 1.1.1 Definition:
+
 Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.
+
+### 1.1.2 Push and pop:
+
+Push: Adds an element to the top of the stack.
+
+Pop: Removes and returns the top element of the stack.
+
+Imagine a pile of books on the floor on a spring-loaded device so that the top of the stack stays nearly the same height. When we add a book to the stack, we say that we 'push' it onto the stack, and when we remove a book, we say that we 'pop' it from the stack.
+
+### 1.1.3 Applications:
+
+1. Expression Evaluation and Conversion
+   
+  - Infix to Postfix/Prefix Conversion: Stacks are used to convert infix expressions (e.g., a + b) to postfix (ab+) or prefix (+ab) for easier evaluation by computers.
+  - Postfix Evaluation: Stacks simplify evaluating postfix expressions like 23+ to give results.
+
+2. Function Call Management (Recursion)
+   
+   - The system stack is used to manage function calls. When a function is called, its data (e.g., local variables) is pushed onto the stack. When the function completes, the data is popped off.
+  
+3. Browser Navigation
+   
+   - Browsers use stacks to manage the history of web pages:
+     - Back Button: Pops the current page from the stack to go to the previous page.
+     - Forward Button: Uses another stack to store forward navigation.
+
+4. Stack-Based Algorithms
+
+   - Depth First Search (DFS): Implemented using a stack to explore graph nodes.
+   - Topological Sorting: Uses a stack to determine the order of tasks in a Directed Acyclic Graph (DAG).
+
+5. Memory Management
+   
+   - Stacks manage memory allocation during function calls and temporary variables. This is especially important in languages like C and C++.
