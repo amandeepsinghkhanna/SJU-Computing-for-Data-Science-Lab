@@ -4,11 +4,11 @@ Data structures help organize and store data efficiently in computer memory. The
 
 ## 1.1. Stack
 
-### 1.1.1 Definition:
+### 1.1.1 Definition :
 
 Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.
 
-### 1.1.2 Push and pop:
+### 1.1.2 Push and pop :
 
 Push: Adds an element to the top of the stack.
 
@@ -16,7 +16,7 @@ Pop: Removes and returns the top element of the stack.
 
 Imagine a pile of books on the floor on a spring-loaded device so that the top of the stack stays nearly the same height. When we add a book to the stack, we say that we 'push' it onto the stack, and when we remove a book, we say that we 'pop' it from the stack.
 
-### 1.1.3 Applications:
+### 1.1.3 Applications :
 
 1. Expression Evaluation and Conversion
    
