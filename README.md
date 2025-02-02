@@ -130,9 +130,10 @@ Here are contributors of the repository in the alphabetical order:
 
 - [Amandeep Singh Khanna](https://github.com/amandeepsinghkhanna)
 - [Syed Hammad](https://github.com/SyedHammad06)
+- [Shamitha R](https://github.com/Shamithasrlya)
 
 If you enjoy their coding antics, please feel free to follow them on GitHub.
 
 ## 6. Reporting Errors in Code/Documentation
 
-To report an issue in the code/documentation please raise an issue in the repository and our team of one person will look into it and fix it at the earliest.
+To report an issue in the code/documentation please raise an issue in the repository and our team will look into it and fix it at the earliest.
