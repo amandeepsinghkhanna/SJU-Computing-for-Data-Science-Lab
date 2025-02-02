@@ -82,7 +82,7 @@ The concepts/algorithms covered in the course are broken into four main parts:
 
 1. [Datastructures](./codebase/01_datastructures/README.md)
 
-   1.1. [Stack]()
+   1.1. [Stack](./codebase/01_datastructures/Readme.md)
 
    1.2. [Queue]()
   
