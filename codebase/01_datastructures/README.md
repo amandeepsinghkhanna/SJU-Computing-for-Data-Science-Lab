@@ -1,3 +1,8 @@
+Table of Contents
+
+- [1. Data Structures](#1-data-structures)
+  - [1.1. Stack](#11-stack)
+
 # 1. Data Structures
 
 Data structures help organize and store data efficiently in computer memory. They provide a way to manage and manipulate data effectively, enabling faster access, insertion, and deletion operations. Common data structures include linked lists, stacks, queues and trees each serving specific purposes based on the requirements of the problem at hand. Understanding data structures is fundamental for designing efficient algorithms and optimizing software performance.
